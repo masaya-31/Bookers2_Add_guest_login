@@ -1,0 +1,17 @@
+[33m5806424[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m [Add]bookのshowページの編集
+[33mfffd707[m [Add]headerリンクの追加
+[33md0572b5[m [Add]user編集機能の作成
+[33m6034ee3[m [Add]bookの編集機能作成
+[33m8c6abe6[m [Add]showページの作成,削除機能の追加
+[33m38748fb[m [Add]books一覧に画像の表示
+[33m3cf1492[m [Add]投稿機能の作成
+[33mdb51453[m [Add]controllerファイルの作成(books,users)、ルーティングの設定
+[33m39de711[m [Add]modelファイルにアソシエーションの記載
+[33me35a876[m [Add]bookモデル、テーブルの作成
+[33me83f8ff[m [Add]ログイン、ログアウト機能の作成
+[33m8743b77[m [Add]deviseを使用するviewの作成
+[33mbac7a3a[m [Add]Userモデルの作成
+[33m8ec375a[m [Add]deviseのインストール
+[33mceafd5d[m [Add]ActiveStrageのインストール
+[33m5786b69[m [Add]homesコントローラの作成、topページ・aboutページの作成、ルーティングの記述
+[33m0e91080[m [Start]Initial Commit
