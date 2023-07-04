@@ -4,7 +4,7 @@
   <%= f.text_field :name, autofocus: true, id:"inputName", placeholder:"名前"%>
 
   <label for="inputImage">ProfileImage</label>
-  <!--プロフィールイメージ追加-->
+  <%= f.file_field :profile_image, accept: "image/*" %>
 
   <label for="inputIntroduction">Introduction</label>
   <%= f.text_area :introduction, autofocus: true, id:"inputIntroduction" %>

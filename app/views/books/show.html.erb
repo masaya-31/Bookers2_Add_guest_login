@@ -1,6 +1,6 @@
 <h1>User info</h1>
 <div>
-  <%= image_tag 'default_image.jpg' %>
+  <%= image_tag @user.get_profile_image(100,100) %>
 </div>
 <p>name <%= @user.name %></p>
 <p>introduction <%= @user.introduction %></p>
@@ -22,7 +22,7 @@
 <% end %>
 
 <h1>Book detail</h1>
-<p><%= image_tag 'default_image.jpg' %></p>
+<p><%= image_tag @user.get_profile_image(100,100) %></p>
 <p>
   <%= link_to user_path(@book.user_id) do %>
   <%= @user.name %>
