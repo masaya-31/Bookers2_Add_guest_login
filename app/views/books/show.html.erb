@@ -2,13 +2,17 @@
 <%= render 'new_book', book: @newbook %>
 
 <h1>Book detail</h1>
-<p><%= image_tag @user.get_profile_image(100,100) %></p>
 <p>
-  <%= link_to user_path(@book.user_id) do %>
-  <%= @user.name %>
+  <%= link_to user_path(@user) do %>
+    <%= image_tag @user.get_profile_image(100,100) %>
+    <%= @user.name %>
   <% end %>
 </p>
-<p><%= @book.title %></p>
+<p>
+  <%= link_to book_path(@book) do %>
+    <%= @book.title %>
+  <% end %>
+</p>
 <p><%= @book.opinion %></p>
 <% if @book.user == current_user %>
   <%= link_to "Edit", edit_book_path(@book)  %>
